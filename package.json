@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "convert": "js-yaml resume.json > resume.yaml",
-    "build": "npm run convert && rm -rf ./public && mkdir ./public && resume export -t elegant --format html ./public/index.html",
+    "build": "rm -rf ./public && mkdir ./public && resume export -t elegant --format html ./public/index.html",
     "serve": "resume serve -t elegant",
     "watch": "npm watch",
     "deploy": "gh-pages -b gh-pages -d public"

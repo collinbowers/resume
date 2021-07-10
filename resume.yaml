@@ -37,6 +37,9 @@ work:
       supporting microservices.
     highlights:
       - >-
+        Situationional Intelligence Services (SIS) - a division of Cryptologic
+        Knowledge Solutions (CKS)
+      - >-
         Build out and manage multiple Kuberenetes (v1.15+) clusters within three
         environments, including over 100 nodes.
       - >-
