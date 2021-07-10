@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/collinbowers/resume/issues"
   },
-  "homepage": "https://github.com/collinbowers/resume#readme",
+  "homepage": "https://collinbowers.github.io/resume",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "js-yaml": "^4.1.0",
