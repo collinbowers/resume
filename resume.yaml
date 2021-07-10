@@ -1,0 +1,193 @@
+$schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+basics:
+  name: Collin Bowers
+  label: Software Engineer
+  image: https://s.gravatar.com/avatar/07362c33955d04126c2186e936fc9894?s=80
+  email: collin@collinbowers.io
+  website: http://collinbowers.io
+  summary: >-
+    Hybrid software engineer with strong experience in devops, backend
+    development, and distributed systems.
+
+    Intelligence Community (IC) contractor since 2019.
+
+    Full Scope TS/SCI holder since 2020.
+  location:
+    city: Baltimore
+    region: Maryland
+  profiles:
+    - network: Github
+      username: collinbowers
+      url: https://github.com/collinbowers
+    - network: LinkedIn
+      username: collin-bowers
+      url: https://www.linkedin.com/in/collin-bowers/
+    - network: Instagram
+      username: collin.pb
+      url: https://www.instagram.com/collin.pb/
+work:
+  - name: Erias Ventures
+    location: Annapolis Junction, MD
+    description: DoD Contractor
+    position: Software Engineer
+    url: https://eriasventures.com/
+    startDate: '2021-02-01'
+    summary: >-
+      Big data devops engineer working with large Kubernetes applications and
+      supporting microservices.
+    highlights:
+      - >-
+        Build out and manage multiple Kuberenetes (v1.15+) clusters within three
+        environments, including over 100 nodes.
+      - >-
+        Build out and manage Cassandra (v3.11+) clusters that handle 1.5 billion
+        events per day.
+      - >-
+        Manage the continuous integration and deployment of production level
+        code to various environments with Jenkins, ArgoCD, and Rancher.
+      - >-
+        Implement various open source technologies and even contribute to some
+        of those technologies. Including ArgoCD and CassKop.
+      - >-
+        Automated various processes which increased developer efficiency.
+        Including deployment processes and automated code testings.
+      - >-
+        Research, plan, and develop the project;s low side AWS eVo development
+        environment.
+      - >-
+        Bridge the gap of communication between developers, operations, and
+        management.
+  - name: Applied Insight (formerly Stratus Solutions)
+    location: Fulton, MD
+    description: DoD Contractor & IT Firm
+    position: Devops Engineer
+    url: https://www.applied-insight.com/
+    startDate: '2019-08-01'
+    endDate: '2021-01-31'
+    summary: >-
+      Hybrid devops engineer with a focus in full-stack development and
+      automation.
+    highlights:
+      - >-
+        Built out automation tools including various GitLab CI/CD pipelines for
+        continuous integration and deployment.
+      - Built Docker images and containers utilizing Amazon ECS/ECR.
+      - >-
+        Maintained project’s infrastructure including various AWS resources,
+        with the help of Terraform.
+      - Built and maintained client’s nodes/express web application.
+      - >-
+        Rebuilt front-end in React, built out backend api to interact with AWS
+        Cognito.
+  - name: Applied Insight (formerly Stratus Solutions)
+    location: Fulton, MD
+    description: DoD Contractor & IT Firm
+    position: Software Engineer
+    url: https://www.applied-insight.com/
+    startDate: '2018-09-01'
+    endDate: '2019-08-01'
+    summary: Software engineer with a focus on full-stack development.
+    highlights:
+      - >-
+        Built, enhanced, and maintained in house web applications. Including
+        Stratus Solutions private employee dashboard.
+      - >-
+        Managed AWS resources for dynamic web applications including EC2, ECS,
+        ECR, S3.
+      - >-
+        Assisted with supporting on premise corporate edge computing devices.
+        Supported on premise corporate layer 2 and 3 wired and wireless
+        networking equipment.
+  - name: Applied Insight (formerly Stratus Solutions)
+    location: Fulton, MD
+    description: DoD Contractor & IT Firm
+    position: Software Engineering Intern
+    url: https://www.applied-insight.com/
+    startDate: '2018-06-01'
+    endDate: '2019-08-31'
+    summary: Software engineering internship with a focus on full-stack development.
+    highlights:
+      - >-
+        Built, enhanced, and maintained in house web applications. Including
+        Stratus Solutions private employee dashboard.
+      - >-
+        Built various customer tools, including the automation of new employee
+        onboarding tasks.
+education:
+  - institution: Stevenson University
+    url: https://www.stevenson.edu/
+    area: Computer Information Systems
+    studyType: Bachelor
+    startDate: '2015-08-31'
+    endDate: '2019-05-01'
+    score: '3.6'
+awards:
+  - title: Dean's List (7 times)
+    date: '2016-05-01'
+    awarder: Stevenson University
+    summary: Awarded Dean's List from Spring 2016 until May 2019.
+skills:
+  - name: Devops
+    level: Master
+    keywords:
+      - Kubernetes
+      - AWS
+      - Docker
+      - Containerization
+  - name: Frontend
+    level: Master
+    keywords:
+      - HTML
+      - CSS
+      - Javascript
+  - name: Backend
+    level: Master
+    keywords:
+      - Python
+      - PHP
+      - Java
+  - name: Databases
+    level: Master
+    keywords:
+      - NoSQL
+      - Cassandra
+      - Elasticsearch
+      - Redis
+languages:
+  - language: English
+    fluency: Native speaker
+interests:
+  - name: Esports
+  - name: Paintball
+  - name: Investing
+  - name: Learning new things
+projects:
+  - name: collinbowers.io
+    description: A professional splash page
+    highlights:
+      - Using javascript and various dependecies to create a unique experience.
+    startDate: '2020-09-31'
+    keywords:
+      - Javascript
+      - Vanta.js
+      - Netlify
+    url: https://github.com/collinbowers/collinbowers.io
+  - name: Katowice 2014 Discore Bot
+    description: >-
+      Discord bot combined with a web scraper to gather information and notify
+      users of recent Katowice 2014 sticker sales.
+    highlights:
+      - Built with Discord.js and Node.js
+    startDate: 2020-09
+    endDate: 2020-10
+    keywords:
+      - Javascript
+      - Node.js
+      - Discord.js
+    url: https://github.com/collinbowers/discord-bot-for-kato14-sales
+meta:
+  canonical: >-
+    https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
+  version: v1.0.0
+  lastModified: '2017-12-24T15:53:00'
+

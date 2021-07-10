@@ -1,0 +1,33 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "js-yaml resume.json > resume.yaml",
+    "build": "npm run convert && rm -rf ./public && mkdir ./public && resume export -t elegant --format html ./public/index.html",
+    "serve": "resume serve -t elegant",
+    "watch": "npm watch",
+    "deploy": "gh-pages -b gh-pages -d public"
+  },
+  "watch": {
+    "convert": "resume.yaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/collinbowers/resume.git"
+  },
+  "author": "Collin Bowers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collinbowers/resume/issues"
+  },
+  "homepage": "https://github.com/collinbowers/resume#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "js-yaml": "^4.1.0",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "npm-watch": "^0.10.0",
+    "resume-cli": "^3.0.5"
+  }
+}
