@@ -175,7 +175,7 @@ projects:
       - Vanta.js
       - Netlify
     url: https://github.com/collinbowers/collinbowers.io
-  - name: Katowice 2014 Discore Bot
+  - name: Katowice 2014 Discord Bot
     description: >-
       Discord bot combined with a web scraper to gather information and notify
       users of recent Katowice 2014 sticker sales.
